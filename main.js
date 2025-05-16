@@ -1,15 +1,16 @@
+// first kata: checking if number is even or odd
 function evenOrOdd(number) {
   if (number % 2 === 0){
     return 'Even';
   }else {
     return 'Odd';
-  }
+}
 }
 //example
 let number = 7;
 console.log(evenOrOdd(number));
 
-//second kata
+//second kata: removing duplicates
 function distinct(a) {
      let b =[];
      let c = new Set();
@@ -24,3 +25,12 @@ function distinct(a) {
 //example
 let a = [12,3,4,1,1,1,2,3,3]
 console.log(distinct(a))
+
+//Third kata
+function isVow(a){
+  const b= { 97: 'a', 101: 'e', 105: 'i', 111: 'o', 117: 'u' };
+  
+  return a.map(num => b[num] || num);
+
+    }
+
