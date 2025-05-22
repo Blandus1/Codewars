@@ -42,4 +42,9 @@ function greet(){
 function square(m){
   return m**2;
 }
+//Kata:an array of integers that return a new array with each value doubled.
+function maps(x){
+ 
+  return x.map((num) => num*2);
+}
 
