@@ -38,4 +38,8 @@ function isVow(a){
 function greet(){
   return "hello world!"
 }
+// Kata:a function that takes an argument and returns the square of it.
+function square(m){
+  return m**2;
+}
 
