@@ -66,3 +66,24 @@ function isOpposite(s1, s2){
 
 }
 
+//KATA
+function countPositivesSumNegatives(input) {
+   // your code here
+  
+  if (!input || input.length === 0) {
+    return [];
+  }
+  
+  let count = 0; //count of positive numbers
+  let sum = 0;// sum of negative numbers
+
+  for (const num of input) {
+    if (num > 0) {
+      count++; //counts positives
+    } else if (num < 0) {
+    sum += num; //add negatives
+    }
+  }
+  return [count,sum];
+}
+
