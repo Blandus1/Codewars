@@ -98,4 +98,9 @@ function sum (numbers) {
   return sum;
 }
 console.log(sum([2,3]))
-
+//KATA: ["h","o","l","a"] ->"h,o,l,a"
+function printArray(array){
+  //show me the code!
+  let arr= array.join(',')
+  return arr;
+}
