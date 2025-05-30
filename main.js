@@ -86,4 +86,16 @@ function countPositivesSumNegatives(input) {
   }
   return [count,sum];
 }
+// KATA:a function that takes an array of numbers and returns the sum of the numbers. If the array does not contain any numbers then you should return 0.
+function sum (numbers) {
+  let sum = 0
+  for (const num of numbers){
+    sum+=num;
+   if (numbers.length === 0){
+      0;
+    }
+  }
+  return sum;
+}
+console.log(sum([2,3]))
 
