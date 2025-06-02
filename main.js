@@ -104,3 +104,20 @@ function printArray(array){
   let arr= array.join(',')
   return arr;
 }
+//kata:
+var Ball = function(ballType) {
+  // your code goes here
+  
+  class Ball {
+    constructor(ballType = "regular"){
+      this.ballType= ballType;
+  }
+    }
+  return new Ball(ballType)
+};
+const ball1= new Ball("super")// returns super
+const ball2 = new Ball() // returns regular
+console.log(ball1.ballType)
+
+
+
