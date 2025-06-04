@@ -119,5 +119,15 @@ const ball1= new Ball("super")// returns super
 const ball2 = new Ball() // returns regular
 console.log(ball1.ballType)
 
+//KATA: count the monkeys
+function monkeyCount(n) {
+const counting= [];
+  for (let i=1; i<=n; i++){
+    /*if(counting[i].length > 0)*/
+    counting.push(i);
+  }
+  return counting;
+}
+
 
 
