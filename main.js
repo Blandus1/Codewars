@@ -128,6 +128,14 @@ const counting= [];
   }
   return counting;
 }
+//Duck Duck Goose
+function duckDuckGoose(players, goose) {
+  // ...
+const positionInArray = (goose-1) % players.length
+
+return players[positionInArray].name;
+}
+
 
 
 
