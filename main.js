@@ -135,7 +135,14 @@ const positionInArray = (goose-1) % players.length
 
 return players[positionInArray].name;
 }
-
+//alternative of duck duck goose
+function duckDuckGoose(players, goose) {
+  for (var i = 0; i < players.length; i++) {
+    if (i === (goose-1) % players.length) {
+      return players[i].name;
+    }
+  }
+}
 
 
 
