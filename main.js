@@ -143,6 +143,24 @@ function duckDuckGoose(players, goose) {
     }
   }
 }
+//KATA: Neutralisation
+function neutralise(s1, s2) {
+  
+ let arrS1= s1.split('')
+ let arrS2= s2.split('')
+ 
+  for (let i=0; i< arrS1.length; i++){
+       if(arrS1[i]=== "+" && arrS2[i]=== "+"){
+       arrS1[i]="+";
+    }else if(arrS1[i]==="-" && arrS2[i]==="-") {
+      arrS1[i]="-";
+    }else{
+      arrS1[i]= 0;
+    }
+ 
+  }
+return arrS1.join('');
+  }
 
 
 
