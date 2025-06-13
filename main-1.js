@@ -9,3 +9,8 @@ if(gunners[loades] !== 'aye'){
 }
     return 'Fire!'
   }
+
+  //KATA: Multiply
+  function multiply(a, b){
+   return a * b;
+}
