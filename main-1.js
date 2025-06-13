@@ -14,3 +14,14 @@ if(gunners[loades] !== 'aye'){
   function multiply(a, b){
    return a * b;
 }
+//Kata: Multiply the number 
+function multiply(number){
+  
+  const numStr = String(number)
+  
+ const num2 = numStr.split('').filter(num => num >= 0 )
+   const multiple = Math.pow(5,num2.length)
+   
+  return number * multiple;
+}
+console.log(multiply(-2))//prints: -10
