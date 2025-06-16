@@ -25,3 +25,12 @@ function multiply(number){
   return number * multiple;
 }
 console.log(multiply(-2))//prints: -10
+
+//KATA: Plural
+function plural(n) {
+  
+  if( n >= 0 && n !== 1 ){
+    return true;
+  }
+  return false;
+}
