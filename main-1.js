@@ -34,3 +34,10 @@ function plural(n) {
   }
   return false;
 }
+
+//KATA: BINARY ADDITION
+function addBinary(a,b) {
+const sum = a+b;
+let sumInBinary = sum.toString(2);
+return sumInBinary;
+}
