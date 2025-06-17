@@ -41,3 +41,6 @@ const sum = a+b;
 let sumInBinary = sum.toString(2);
 return sumInBinary;
 }
+//KATA:Ternary Operator
+const age=30
+const describeAge = (age)=> `You\'re a(n) ${age <= 12 ? "kid" : age >= 13 && age <= 17? "teenager" :age >= 18 && age <= 64? "adult":"elderly"}`;
