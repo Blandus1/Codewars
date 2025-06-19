@@ -44,3 +44,16 @@ return sumInBinary;
 //KATA:Ternary Operator
 const age=30
 const describeAge = (age)=> `You\'re a(n) ${age <= 12 ? "kid" : age >= 13 && age <= 17? "teenager" :age >= 18 && age <= 64? "adult":"elderly"}`;
+
+//KATA: Tip calculator
+function calculateTip(amount,rating){
+
+  switch (rating.toLowerCase()){
+      case 'terrible': return Math.ceil((amount *0)/100);
+      case 'poor': return Math.ceil((amount * 5)/100);
+      case 'good':return Math.ceil((amount * 10)/100);
+      case 'great':  return Math.ceil((amount * 15)/100);
+      case 'excellent': return Math.ceil((amount * 20)/100);
+      default: return  "Rating not recognised";
+  }
+}
