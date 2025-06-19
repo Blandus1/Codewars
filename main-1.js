@@ -57,3 +57,13 @@ function calculateTip(amount,rating){
       default: return  "Rating not recognised";
   }
 }
+
+//KATA: Will you make it 
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+
+if (fuelLeft * mpg >= distanceToPump){
+ return true; 
+}else {
+     return false;
+}
+};
