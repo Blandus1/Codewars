@@ -72,3 +72,17 @@ if (fuelLeft * mpg >= distanceToPump){
 const stringToNumber= (str) => {
   return Number(str);
 }
+//KATA: string array to number array
+
+const toNumberArray =(stringarray) =>{
+  const array= []
+
+  for(let i=0;i<stringarray.length;i++){
+
+    const add = parseFloat(stringarray[i])
+    array.push(add)
+  }
+  return array;
+
+}
+  
