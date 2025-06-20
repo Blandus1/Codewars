@@ -67,3 +67,8 @@ if (fuelLeft * mpg >= distanceToPump){
      return false;
 }
 };
+
+//KATA: string to number
+const stringToNumber= (str) => {
+  return Number(str);
+}
