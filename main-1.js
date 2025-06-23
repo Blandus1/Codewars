@@ -85,4 +85,6 @@ const toNumberArray =(stringarray) =>{
   return array;
 
 }
+  //KATA: Quarter of the year
+  const quarterOf= (month)=> month < 4 ? 1: month <7 ? 2: month < 10 ? 3:month <=12? 4: undefined;
   
