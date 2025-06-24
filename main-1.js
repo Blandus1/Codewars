@@ -88,3 +88,17 @@ const toNumberArray =(stringarray) =>{
   //KATA: Quarter of the year
   const quarterOf= (month)=> month < 4 ? 1: month <7 ? 2: month < 10 ? 3:month <=12? 4: undefined;
   
+  //KATA: Find average
+  
+   function findAverage(array) {
+   
+      if (array.length !== 0){
+      let sum = array.reduce((acc,curr) => acc + curr,0)
+    let average= sum/array.length
+    return average;
+    
+    }else{
+      return 0;
+    }
+  }
+    
