@@ -101,4 +101,8 @@ const toNumberArray =(stringarray) =>{
       return 0;
     }
   }
-    
+    //string to number
+ const stringToNumber = function(str){
+   return Number(str);
+ }
+
