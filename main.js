@@ -162,5 +162,12 @@ function neutralise(s1, s2) {
 return arrS1.join('');
   }
 
+  //convert number to reversed array of digits
+  function digitize(n) {
+  
+  let arr = n.toString().split('').reverse().map(Number)
+
+  return arr;
+}
 
 
