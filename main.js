@@ -170,4 +170,10 @@ return arrS1.join('');
   return arr;
 }
 
+//KATA: Remove first and last character 
+const removeChar= (str)=>{
+ return str.slice(1,-1)
+};
+
+
 
