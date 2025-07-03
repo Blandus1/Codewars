@@ -175,5 +175,13 @@ const removeChar= (str)=>{
  return str.slice(1,-1)
 };
 
+//sum the arrays
+function arrayPlusArray(arr1, arr2) {
+   
+let sumarr1 = arr1.reduce((a,b)=> a+b,0)
+let sumarr2= arr2.reduce((c,d) => c+d,0)
+return sumarr1 + sumarr2;
+
+}
 
 
