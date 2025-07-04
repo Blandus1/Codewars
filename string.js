@@ -11,3 +11,12 @@ const toNumberArray =(stringarray) =>{
 
 }
 console.log(toNumberArray(['2','3.9','6.1']))
+
+//sum arrays
+function arrayPlusArray(arr1, arr2) {
+   
+let sum = [...arr1,...arr2]
+let sumarr= sum.reduce((c,d) => c+d,0)
+return sumarr
+}
+console.log(arrayPlusArray([1,2,3], [4,5,7]))

@@ -175,13 +175,17 @@ const removeChar= (str)=>{
  return str.slice(1,-1)
 };
 
-//sum the arrays
+//KATA: sum the arrays
 function arrayPlusArray(arr1, arr2) {
    
 let sumarr1 = arr1.reduce((a,b)=> a+b,0)
 let sumarr2= arr2.reduce((c,d) => c+d,0)
 return sumarr1 + sumarr2;
 
-}
+}// here instead of using reduce two times we can use rest parameter to make two arrays one then use reduce
+
+//KATA: Drink about 
+const peopleWithAgeDrink=(age) => age < 14 ? "drink toddy" : age <18? "drink coke":age <21? "drink beer"
+:"drink whisky";  
 
 
