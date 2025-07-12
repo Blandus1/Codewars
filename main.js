@@ -189,3 +189,14 @@ const peopleWithAgeDrink=(age) => age < 14 ? "drink toddy" : age <18? "drink cok
 :"drink whisky";  
 
 
+//KATA:can the snail reach the end?x:initial length y:the speed/minute z:snail length increase/minute
+const canSnailReachEnd=(x, y, z)=> {
+  const timeToReach =  x / (y - z);
+  if (y>z && timeToReach <= 525600){
+    return true;
+  }
+  return false;
+  
+  }
+
+
