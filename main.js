@@ -198,5 +198,16 @@ const canSnailReachEnd=(x, y, z)=> {
   return false;
   
   }
-
+//KATA: summing multiples of 3 or 5
+function solution(number){
+ let sum = 0;
+  if (number < 0){return 0};
+  
+  for (let n=1; n<number;n++){
+if(n % 5 === 0 || n % 3 === 0){
+      sum +=n;
+    }
+  }
+  return sum;
+}
 
