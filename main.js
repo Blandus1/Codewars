@@ -211,3 +211,9 @@ if(n % 5 === 0 || n % 3 === 0){
   return sum;
 }
 
+//7kyu:greet me 
+const greet = function(name) {
+return "Hello " + name[0].toUpperCase()+ name.toLowerCase().slice(1) +"!"
+};
+//check if english exist in string
+const spEng=(s)=>s.toLowerCase().includes("english")? true:false;
