@@ -217,3 +217,16 @@ return "Hello " + name[0].toUpperCase()+ name.toLowerCase().slice(1) +"!"
 };
 //check if english exist in string
 const spEng=(s)=>s.toLowerCase().includes("english")? true:false;
+
+//KATA
+const capitals = function(word) {
+  
+  let arr=[]
+  for(let i=0; i< word.length; i++){
+    if (word[i]=== word[i].toUpperCase()){
+      arr.push(i);
+    }
+  }
+return arr;
+
+};
