@@ -239,3 +239,8 @@ String.prototype.toAlternatingCase = function () {
   
   return string.join('')
   };
+
+  //isAN:7kyu
+   const isAN= (value)=>{ 
+   return (typeof value === "number" && !Number.isNaN(value))|| value instanceof Number;
+ };
