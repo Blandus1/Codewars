@@ -244,3 +244,9 @@ String.prototype.toAlternatingCase = function () {
    const isAN= (value)=>{ 
    return (typeof value === "number" && !Number.isNaN(value))|| value instanceof Number;
  };
+
+ //summing two smallest integers
+ const sumTwoSmallestNumbers= (num) =>{
+  num.sort((a,b)=>a-b);
+  return num[0] + num[1];
+}
