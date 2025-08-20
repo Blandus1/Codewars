@@ -101,8 +101,14 @@ const toNumberArray =(stringarray) =>{
       return 0;
     }
   }
-    //string to number
- const stringToNumber = function(str){
-   return Number(str);
- }
+ //8kyu: simple multiplication
+ const simpleMultiplication =(number)=> {
+  
+  if(number % 2 === 0)  {
+    return number*8;
+}else{
+  return number*9;
+}
+
+  }
 
