@@ -112,3 +112,18 @@ const toNumberArray =(stringarray) =>{
 
   }
 
+
+//multiples
+const sumMul=(n,m)=>{
+  if(m <= 0 || n <=0) {
+    return 'INVALID';
+  }
+let sum = 0
+  for(let i=1; i< m; i++){
+    if(i % n === 0){
+      sum += i;
+    }
+  }
+  return sum;
+  }
+
