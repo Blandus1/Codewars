@@ -126,4 +126,14 @@ let sum = 0
   }
   return sum;
   }
+//KATA: merging sorted arrays
+const mergeArrays=(arr1, arr2)=> {
 
+let conct= arr1.concat (arr2)
+if (arr1.length=== 0 && arr2.length === 0){
+   return [];
+}else {
+     return [...new Set(conct)].sort((a,b)=> a - b)
+}
+
+}
