@@ -137,3 +137,7 @@ if (arr1.length=== 0 && arr2.length === 0){
 }
 
 }
+
+
+
+let a = 10; // Outer scope { var a = 20; // Illegal shadowing, as 'var' is function-scoped } console.log(a); // Outputs 20, but this can lead to confusion

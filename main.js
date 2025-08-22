@@ -257,3 +257,7 @@ const numberToPower=(n, p)=>{
 if(p===0)return 1;
   return n*numberToPower(n,p-1);
 }
+
+
+//return only five without using any numbers 
+const unusualFive=()=> 'liars'.length
