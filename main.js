@@ -261,3 +261,5 @@ if(p===0)return 1;
 
 //return only five without using any numbers 
 const unusualFive=()=> 'liars'.length
+//true for "Yes", false for "No"
+const boolToWord= (bool) =>{return bool?'Yes' : 'No';};
