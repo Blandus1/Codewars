@@ -263,3 +263,7 @@ if(p===0)return 1;
 const unusualFive=()=> 'liars'.length
 //true for "Yes", false for "No"
 const boolToWord= (bool) =>{return bool?'Yes' : 'No';};
+//Add extra
+ const addExtra =( listOfNumbers )=>{
+   return [...listOfNumbers,13]
+}
