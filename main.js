@@ -267,3 +267,7 @@ const boolToWord= (bool) =>{return bool?'Yes' : 'No';};
  const addExtra =( listOfNumbers )=>{
    return [...listOfNumbers,13]
 }
+//boolean to string
+const booleanToString=(b)=>{
+return b? "true":"false";
+}
