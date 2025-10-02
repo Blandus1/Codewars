@@ -141,3 +141,11 @@ if (arr1.length=== 0 && arr2.length === 0){
 
 
 let a = 10; // Outer scope { var a = 20; // Illegal shadowing, as 'var' is function-scoped } console.log(a); // Outputs 20, but this can lead to confusion
+
+//KATA: switchItUp
+ const switchItUp=(n)=> {
+
+  const names={0:"Zero",1:"One",2:"Two",3:"Three",4:"Four",5:"Five",6:"Six",7:"Seven",8:"Eight",9:"Nine"}; 
+  
+return names[n]
+   }
