@@ -149,3 +149,16 @@ let a = 10; // Outer scope { var a = 20; // Illegal shadowing, as 'var' is funct
   
 return names[n]
    }
+
+
+   //KATA: did she say 'hallo'?
+   const validateHello = (string)=> {
+  let words = ['hello','ciao','salut','hallo','hola','ahoj','czesc']
+    for (let item of words){
+      if (string.toLowerCase().includes(item)){
+         return true;
+      }
+    }
+  
+  return false;
+}
