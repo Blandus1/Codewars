@@ -162,3 +162,14 @@ return names[n]
   
   return false;
 }
+
+//KATA: remove every other: removing the second character in the array
+const  removeEveryOther=(arr)=>{
+  let array=[]
+  for (let i=0; i< arr.length; i++){ //no <= in the condition to avoid accessing undefined
+    if (i % 2 === 0){
+      array.push(arr[i]);
+    }
+  }
+  return array;
+ }
