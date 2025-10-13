@@ -173,3 +173,19 @@ const  removeEveryOther=(arr)=>{
   }
   return array;
  }
+
+ //the classes
+ class Ghost{
+  constructor (){
+    const colors = ["white", "yellow", "purple", "red"];
+    this.color = colors[Math.floor(Math.random() * colors.length)];
+  }
+
+  Mycolor () {
+    console.log('instatiated')
+  }
+    
+  }
+
+const instance= new Ghost()
+instance.Mycolor();
