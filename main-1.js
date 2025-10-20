@@ -199,7 +199,7 @@ const rps = (p1, p2) => {
   }
   return "Player 2 won!"
 };
-//KAATA: finding a needle in a haystack
+//KATA: finding a needle in a haystack
 const findNeedle=(haystack) =>{
   
   for(const [index,item] of haystack.entries()){
@@ -209,4 +209,14 @@ const findNeedle=(haystack) =>{
 
   }
   return "no needle found"
+}
+//KATA: Sum positives in an array
+const positiveSum=(arr)=> { 
+  let positives=[]
+  for (const item of arr ){
+    if(item > 0){
+      positives.push(item)
+    }
+  }
+  return positives.reduce((a,b)=>a+b,0)
 }
