@@ -199,3 +199,14 @@ const rps = (p1, p2) => {
   }
   return "Player 2 won!"
 };
+//KAATA: finding a needle in a haystack
+const findNeedle=(haystack) =>{
+  
+  for(const [index,item] of haystack.entries()){
+  if(item === "needle"){
+   return `found the needle at position ${index}`
+  }
+
+  }
+  return "no needle found"
+}
