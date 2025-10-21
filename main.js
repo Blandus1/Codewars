@@ -271,3 +271,8 @@ const boolToWord= (bool) =>{return bool?'Yes' : 'No';};
 const booleanToString=(b)=>{
 return b? "true":"false";
 }
+
+//KATA: sort an array and make it case insesitive
+const sorter=(textbooks)=> { 
+  return textbooks.sort((a,b)=>a.toLowerCase().localeCompare(b.toLowerCase()));
+}
