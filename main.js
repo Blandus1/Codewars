@@ -276,3 +276,5 @@ return b? "true":"false";
 const sorter=(textbooks)=> { 
   return textbooks.sort((a,b)=>a.toLowerCase().localeCompare(b.toLowerCase()));
 }
+//KATA: THE "if"function
+const _if=(bool, func1, func2)=> bool? func1():func2();
