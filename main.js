@@ -278,3 +278,6 @@ const sorter=(textbooks)=> {
 }
 //KATA: THE "if"function
 const _if=(bool, func1, func2)=> bool? func1():func2();
+
+//KATA: Grasshopper debug 'say hello'
+const sayHello=(name) =>`Hello, ${name}`
