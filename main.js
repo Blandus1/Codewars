@@ -281,3 +281,17 @@ const _if=(bool, func1, func2)=> bool? func1():func2();
 
 //KATA: Grasshopper debug 'say hello'
 const sayHello=(name) =>`Hello, ${name}`
+
+//KATA: String basics
+const getUsersIds=(str)=>{
+  let taskOne= str.replace(/#/g,'')
+                  .trim()
+                  .split(',')
+                  .map(el=> el.trim())
+                  .map(el=> el.toLowerCase())
+                  .map(el=>el.replace(/^uid/i,''))
+                  .map(el => el.trim())
+ 
+  return taskOne;
+
+}
