@@ -300,3 +300,7 @@ const getUsersIds=(str)=>{
 const opposite=(n)=> {
 if(typeof n === 'number') return n*-1;
 }
+//KATA: string to upper case
+const makeUpperCase=(str) =>{
+  return str.toUpperCase()
+}
