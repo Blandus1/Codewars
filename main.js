@@ -295,3 +295,8 @@ const getUsersIds=(str)=>{
   return taskOne;
 
 }
+
+//KATA:OPPPOSITE OF THE NUMBER
+const opposite=(n)=> {
+if(typeof n === 'number') return n*-1;
+}
