@@ -304,3 +304,8 @@ if(typeof n === 'number') return n*-1;
 const makeUpperCase=(str) =>{
   return str.toUpperCase()
 }
+
+//KATA:ManyLightsabersDoYouOwn
+const howManyLightsabersDoYouOwn=(name) =>{
+  return name=== 'Zach'? 18:0;
+}
