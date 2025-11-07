@@ -309,3 +309,12 @@ const makeUpperCase=(str) =>{
 const howManyLightsabersDoYouOwn=(name) =>{
   return name=== 'Zach'? 18:0;
 }
+//KATA: Multiples of a number
+const multiTable=(n) =>{
+  let table=[]
+for(let i=1; i <=10; i++){
+   let multiples=`${i} * ${n} = ${n * i}`
+table.push(multiples)
+}
+ return table.join('\n') 
+}
