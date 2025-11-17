@@ -318,3 +318,16 @@ table.push(multiples)
 }
  return table.join('\n') 
 }
+/* This is an alternative way of solving multiples of a number by using map method
+const multiTable = n =>
+  Array.from({ length: 10 }, (_, i) => `${i + 1} * ${n} = ${(i + 1) * n}`)
+       .join('\n');
+*/
+
+//KATA: CHECKING IF IT IS PALINDROME
+const isPalindrome= x => {
+if (x.split('').reverse().join('').toLowerCase()=== x.toLowerCase()){
+  return true
+} 
+  return false;
+}
