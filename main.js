@@ -331,3 +331,11 @@ if (x.split('').reverse().join('').toLowerCase()=== x.toLowerCase()){
 } 
   return false;
 }
+
+
+//KATA: Returning the position of the given letter in alphabetic 
+const position=l=>{
+const al = " abcdefghijklmnopqrstuvwxyz";
+  if(al.includes(l))
+    return 'Position of alphabet: ' +(al.indexOf(l.toLowerCase()))
+}
