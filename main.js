@@ -339,3 +339,10 @@ const al = " abcdefghijklmnopqrstuvwxyz";
   if(al.includes(l))
     return 'Position of alphabet: ' +(al.indexOf(l.toLowerCase()))
 }
+
+
+//KATA: Who ate the cookies?
+const cookie= x => {
+ let result= (typeof x === 'string')? 'Who ate the last cookie? It was Zach!': (typeof x=== 'number' || Number.isInteger(x))?  'Who ate the last cookie? It was Monica!': 'Who ate the last cookie? It was the dog!'
+return result;
+ }
