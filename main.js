@@ -346,3 +346,23 @@ const cookie= x => {
  let result= (typeof x === 'string')? 'Who ate the last cookie? It was Zach!': (typeof x=== 'number' || Number.isInteger(x))?  'Who ate the last cookie? It was Monica!': 'Who ate the last cookie? It was the dog!'
 return result;
  }
+
+ //KATA: OOP
+ class Ship {
+  constructor(draft, crew) {
+    this.draft = draft
+    this.crew = crew
+  }
+  
+isWorthIt(){
+
+  let noCrew= this.draft-this.crew * 1.5
+  if(noCrew > 20){
+      return true; 
+  }
+ 
+return false;
+}
+}
+const titanic= new Ship(56,10) 
+titanic.isWorthIt()
