@@ -366,3 +366,28 @@ return false;
 }
 const titanic= new Ship(56,10) 
 titanic.isWorthIt()
+
+//KATA: summing without lowest or highest number ignoring their duplicates
+const sumArray=array=> {
+if (!Array.isArray(array) || array.length <= 1) return 0;
+  
+  let maxN = Math.max(...array);
+  let minN = Math.min(...array);
+
+  let removedMin = false;
+  let removedMax = false;
+
+  const filteredArr = array.filter(num => {
+    if (num === minN && !removedMin) {
+      removedMin = true;
+      return false;
+    }
+    if (num === maxN && !removedMax) {
+      removedMax = true;
+      return false;
+    }
+    return true;
+  });
+
+  return filteredArr.reduce((a, b) => a + b, 0);
+}
