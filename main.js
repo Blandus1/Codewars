@@ -391,3 +391,9 @@ if (!Array.isArray(array) || array.length <= 1) return 0;
 
   return filteredArr.reduce((a, b) => a + b, 0);
 }
+//KATA: SWAP VALUES IN ARRAY
+const swapValues=(array)=> {
+  const temp = array[0];
+  array[0] = array[1];
+  array[1] = temp;
+}
