@@ -397,3 +397,11 @@ const swapValues=(array)=> {
   array[0] = array[1];
   array[1] = temp;
 }
+
+//KATA: DO I GET A BONUS?
+const bonusTime=(salary, bonus) =>{
+  let prefix='£'
+  let fatCat= bonus ? salary*10: salary;
+  return `${prefix}${fatCat}`
+
+}
