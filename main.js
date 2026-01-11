@@ -405,3 +405,6 @@ const bonusTime=(salary, bonus) =>{
   return `${prefix}${fatCat}`
 
 }
+
+//KATA: Basic function fixer
+const addFive=num=> num += 5
