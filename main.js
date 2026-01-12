@@ -408,3 +408,5 @@ const bonusTime=(salary, bonus) =>{
 
 //KATA: Basic function fixer
 const addFive=num=> num += 5
+//KATA: The wide-mouthed frog
+const mouthSize= animal=>animal === ('alligator').toLowerCase()? 'small': 'wide';
