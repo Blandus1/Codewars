@@ -410,3 +410,17 @@ const bonusTime=(salary, bonus) =>{
 const addFive=num=> num += 5
 //KATA: The wide-mouthed frog
 const mouthSize= animal=>animal === ('alligator').toLowerCase()? 'small': 'wide';
+
+
+// logging the right name
+function Warrior(n){
+  let name = n;  
+  this.name = function(n){
+    if( n ) name=n;
+    return name;
+  }
+}
+  
+Warrior.prototype.toString = function(){
+    return "Hi! my name's "+this.name();
+}
