@@ -424,3 +424,20 @@ function Warrior(n){
 Warrior.prototype.toString = function(){
     return "Hi! my name's "+this.name();
 }
+//adding numbers in a  silly way
+const add = (num1, num2) => {
+  const a = num1.toString();
+  const b = num2.toString();
+
+  const maxLength = Math.max(a.length, b.length);
+
+  const padded1 = a.padStart(maxLength, "0");
+  const padded2 = b.padStart(maxLength, "0");
+
+  const result = padded1
+    .split("")
+    .map((digit, index) => Number(digit) + Number(padded2[index]))
+    .join("");
+
+  return Number(result);
+};
