@@ -450,3 +450,8 @@ array.push(i);
 }
   return array;
 };
+
+
+
+
+const {d, b: {c}} = {d: 1, b: {c: 2}};
