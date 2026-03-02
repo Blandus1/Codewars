@@ -9,3 +9,8 @@ export let name: string = a + b;
 export const otherAngle = (a: number, b: number): number => {
   return (180 - (a + b));
 }
+
+//3.KATA: Personalized message
+export function greet(name: string, owner: string): string{
+return name === owner ? "Hello boss" : "Hello guest";
+}
