@@ -468,3 +468,15 @@ for(let i=0; i< one.length; i++){
 }
   return result;
  }
+
+ //KATA: Finding the smallest integer in the array
+ function findSmallestInt(arr) {
+
+  return Math.min.apply(null,arr);
+}
+
+or 
+
+const findSmallestInt=(arr)=> {
+return Math.min(...arr)
+}
