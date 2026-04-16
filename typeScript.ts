@@ -14,3 +14,4 @@ export const otherAngle = (a: number, b: number): number => {
 export function greet(name: string, owner: string): string{
 return name === owner ? "Hello boss" : "Hello guest";
 }
+

@@ -451,7 +451,11 @@ array.push(i);
   return array;
 };
 
-
-
-
 const {d, b: {c}} = {d: 1, b: {c: 2}};
+
+//KATA: using arc length of a circle to calculate area
+const squareArea=(A)=>{
+  let r= A*2/ Math.PI
+  let area= r*r
+  return Math.round(area *100)/100;
+  }
