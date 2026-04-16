@@ -459,3 +459,12 @@ const squareArea=(A)=>{
   let area= r*r
   return Math.round(area *100)/100;
   }
+
+  //KATA: Triple trouble -> mixing values from each string given
+  const tripleTrouble=(one, two, three)=>{
+let result=""
+for(let i=0; i< one.length; i++){
+  result += one[i]+two[i]+three[i]
+}
+  return result;
+ }
