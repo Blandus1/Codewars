@@ -480,3 +480,8 @@ or
 const findSmallestInt=(arr)=> {
 return Math.min(...arr)
 }
+//kata: Collinearity
+const collinearity=(x1, y1, x2, y2)=>{
+  return x1 * y2 === x2 * y1;
+}
+
