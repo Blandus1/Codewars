@@ -485,3 +485,14 @@ const collinearity=(x1, y1, x2, y2)=>{
   return x1 * y2 === x2 * y1;
 }
 
+//KATA: Trimming and string template
+function fiveLine(s){
+ let str= s.trim()
+let result = []
+for (let i=1; i <=5; i++){
+  result.push(str.repeat(i))
+}
+  
+  return result.join('\n')
+}
+
