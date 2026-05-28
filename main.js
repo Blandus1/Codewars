@@ -496,3 +496,10 @@ for (let i=1; i <=5; i++){
   return result.join('\n')
 }
 
+// KATA: Returning the n elements
+const take=(arr, n) =>{
+switch(arr,n){
+    case 'n === 0': return []
+    default: return arr.slice(0,n)
+}
+}
