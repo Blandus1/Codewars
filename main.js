@@ -503,3 +503,6 @@ switch(arr,n){
     default: return arr.slice(0,n)
 }
 }
+
+//KATA :Check if a list includes an item
+const include=(arr, item)=> arr.includes(item) ? true : false;
