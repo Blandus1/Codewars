@@ -506,3 +506,14 @@ switch(arr,n){
 
 //KATA :Check if a list includes an item
 const include=(arr, item)=> arr.includes(item) ? true : false;
+
+//KATA: Will there be enough space?
+const enough =(cap, on, wait)=> {
+  const nbrTohold= on + wait
+  const busNotHold= cap-nbrTohold
+  if (on < cap && nbrTohold < cap){
+    return 0
+  }
+  return -(busNotHold)
+  
+}
